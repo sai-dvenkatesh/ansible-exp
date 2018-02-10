@@ -1,0 +1,5 @@
+---
+- name: trigger the service
+  service: 
+    name: httpd
+    state: restarted
